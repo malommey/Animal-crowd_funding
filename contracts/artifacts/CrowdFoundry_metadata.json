@@ -1,0 +1,253 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "SAVEDCAT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "SAVEDDOG",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "SAVEDPIG",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSavedPet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "depositForCat",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Dog",
+						"type": "uint256"
+					}
+				],
+				"name": "depositForDog",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Pig",
+						"type": "uint256"
+					}
+				],
+				"name": "depositForPig",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "pet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "cat",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dog",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "SAVEDCATANIMAL",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "SAVEDDOGANIMAL",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalcat",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totaldog",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "cat",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "savedcat",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "cat",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dog",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "SAVEDCATANIMAL",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "SAVEDDOGANIMAL",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalcat",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totaldog",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalcat",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totaldog",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CrowdFoundry.sol": "CrowdFoundry"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CrowdFoundry.sol": {
+			"keccak256": "0x4dfcdabfbdbc79df14ba1e758f8ce16a09dfd0e942f28a1f4237f6a17db66911",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9cac20f00703549edb3786de15fce8d380f0ee2c0ef008068477a27b83259652",
+				"dweb:/ipfs/QmP92By2hk7Syp1BAEwrX2ecwJUGZhrgkcSnYKZD2qgpwq"
+			]
+		}
+	},
+	"version": 1
+}
